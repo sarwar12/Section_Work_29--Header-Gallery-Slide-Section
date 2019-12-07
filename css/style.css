@@ -1,0 +1,80 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	color: #878787;
+	font-family: ;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+/* Main CSS Stop */
+/* Gallery Section Start */
+.section-padding {
+	padding: 80px 0;
+}
+.bigger-text {
+	font-size: 18px;
+	line-height: 1.8;
+	text-align: center;
+	padding: 0 70px;
+}
+.bigger-text h1 {
+  color: #313131;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 53px;
+  margin-bottom: 50px;
+}
+.boxed-btn {
+  background: #4752e9;
+  color: #fff;
+  padding: 10px 40px;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+.bigger-text .boxed-btn {
+  margin-top: 30px;
+}
+
+.shadow-gallery img:nth-child(2), .shadow-gallery img:nth-child(3) {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.shadow-gallery {
+  position: relative;
+  padding-top: 30px;
+}
+.shadow-gallery img {
+  position: relative;
+  z-index: 1;
+  width: 50%;
+  box-shadow: 0 0 50px #bebec1;
+}
+.shadow-gallery img:nth-child(3) {
+  z-index: 3;
+  width: 70%;
+  right: auto;
+  left: -50px;
+  bottom: -80px;
+}
+.shadow-gallery img:nth-child(2) {
+  z-index: 2;
+}
+.shadow-gallery img:nth-child(1) {
+  top: -50px;
+}
+/* Gallery Section Stop */
